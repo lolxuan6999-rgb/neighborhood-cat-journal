@@ -1,7 +1,7 @@
 # 🐾 Neighborhood Cat Journal: A No-Code Community Case Study
 
 ## 📌 Project Overview
-A friction-free, crowd-sourced digital registry designed to connect animal-loving neighbors, celebrate local pets, and track the health and movement of community stray cats. 
+A friction-free, crowd-sourced digital registry designed to connect animal-loving neighbors, celebrate local pets, and track the health and movement of community stray cats.
 
 ---
 
