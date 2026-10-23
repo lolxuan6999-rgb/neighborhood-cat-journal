@@ -24,7 +24,17 @@ When navigating as a non-registered newcomer, the platform successfully bypassed
 
 *   **Metric - Authentication Barrier:** 0% (Passed). No account sign-up prompt or email verification wall was triggered.
 
-![Guest Mode Verification](./images/track-1-guest-mode.png)
+<details>
+<summary>🔍 Click to view technical evidence screenshot</summary>
+
+![Guest Mode Verification](./images/track-1-1-guest-access.jpg)
+![Guest Mode Verification](./images/track-1-2-guest-submit.jpg)
+![Guest Mode Verification](./images/track-1-3-guest-name-change.jpg)
+![Guest Mode Verification](./images/track-1-4-guest-pend-approval1.jpg)
+![Guest Mode Verification](./images/track-1-5-guest-pend-approval2.jpg)
+![Guest Mode Verification](./images/)
+
+</details>
 
 ### 📸 Test Phase B: The Administrative Security Firewall
 Upon accessing the primary host dashboard, the test confirmed that background security nets are holding with 100% precision. The inbound anonymous post did not render on the public timeline. Instead, the data record was successfully isolated inside the private administrative hold canvas.
@@ -33,7 +43,12 @@ The system perfectly flagged the incoming entry under a system-enforced **"Await
 
 *   **Metric - Routing Isolation Accuracy:** 100% (Passed). Anonymous records are completely quarantined from the open read canvas.
 
-![Admin Queue Verification](./images/track-1-admin-queue.png)
+<details>
+<summary>🔍 Click to view technical evidence screenshot</summary>
+
+![Admin Queue Verification](./images/track-1-6-admin.jpg)
+
+</details>
 
 ---
 
