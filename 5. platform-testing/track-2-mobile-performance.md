@@ -34,18 +34,20 @@ To ensure the testing suite mirrors realistic community conditions rather than a
 *(Results from Methodology Steps 1 & 2)*
 
 * **Test Hardware:** Apple iPhone 11 Pro Max *(Note: Hardware is 4G LTE-only and lacks a 5G modem, representing realistic everyday resident devices).*
+* **Test User Account:** Logged in as **Hopeful Crane**
 * **Network Environment:** 4G LTE Cellular Data (3 Bars)
 * **Payload Volume (File Size):** 6.1 MB Video File (MP4/MOV)
-* **Upload Completion Speed:** 7.98 Seconds
-* **Verdict:** **Passed.** The upload finished well under the critical 12-second drop-off threshold, demonstrating reliable sustained bandwidth on a standard 4G connection.
+* **Upload Completion Speed:** **7.07 Seconds**
+* **Moderation & Lifecycle Check:** Passed. The video successfully entered the **Pending Approval** queue upon submission, transitioned smoothly to **Approved**, and played back cleanly without buffering or playback errors.
+* **Verdict:** **Passed.** The upload finished well under the critical 12-second drop-off threshold, demonstrating reliable sustained bandwidth and complete end-to-end media lifecycle stability on a standard 4G connection.
 
 ### 📝 Test Phase B: Front-End Scrolling & Interface Stability
 *(Results from Methodology Step 3)*
 
-* **Modal & Upload Progress Check:** Passed. Padlet's mobile composer remained responsive with live progress bar updates throughout the 7.98-second transfer.
-* **Post-Submit Scroll Stability Evaluation:** Passed. Immediately after tapping **Submit**, column movements remained completely fluid without application lag while rendering the video thumbnail.
-* **Layout Shift Check:** Passed. Existing board elements stayed locked in place while the new media card adjusted smoothly.
-* **Verification Anchor:** See Appendix Item A for device info cards, cellular status bar proof, and upload progress screenshots.
+* **Modal & Upload Progress Check:** Passed. Padlet's mobile composer remained responsive with live progress bar updates throughout the 7.07-second transfer.
+* **Post-Submit Scroll Stability Evaluation:** Passed. Immediately after tapping **Submit** (while in the pending approval state), column movements remained completely fluid without application lag.
+* **Layout Shift Check:** Passed. Existing board elements stayed locked in place while the new media card adjusted smoothly through approval and playback.
+* **Verification Anchor:** See Appendix Item A for all 9 visual verification assets covering network status, file metadata, upload timing, scroll stability, moderation states, and video playback.
 
 ---
 
@@ -56,12 +58,44 @@ To ensure the testing suite mirrors realistic community conditions rather than a
 
 ## 📁 Appendix: Technical Evidence (Visual Assets)
 
-### 📸 Appendix Item A: Mobile Speed & Device Media Metrics
+### 📸 Appendix Item A: Mobile Speed, Lifecycle & Interface Metrics (9 Screenshots)
 <details>
-<summary>🔍 Click to expand: Cellular Network Status Bar, File Info Card & Upload Progress Proof</summary>
+<summary>🔍 Click to expand: Complete 9-Step Visual Verification Log</summary>
 
-* **4G LTE Status Bar & Upload Progress Screenshot:** *(Insert screenshot showing 3-bar cellular signal and Padlet's active upload progress bar)*
-* **iOS Media Info Card:** *(Insert screenshot showing the 6.1 MB video metadata)*
-* **Stopwatch / Completion Proof:** *(Insert screenshot showing the 7.98-second completion time)*
+1. **Network Baseline:** 4G LTE Status Bar showing 3-bar cellular signal
+
+![TPA](./images/track-2-1-signal.png)
+
+2. **Media Payload Proof:** iOS Media Info Card confirming 6.1 MB video file size
+
+![TPA](./images/track-2-2-video-size.png)
+
+3. **Authentication State:** Active session logged in as user **'Hopeful Crane'**
+
+![TPA](./images/track-2-3-user-login.png)
+
+4. **Upload Initiation:** Video upload start screen and timer baseline *(Insert Image 4)*
+
+![TPA](./images/track-2-4-timing-start.jpg)
+
+5. **Upload Completion:** Video upload finished at **7.07 seconds** *(Insert Image 5)*
+
+![TPA](./images/track-2-5-timing-end.jpg)
+
+6. **Moderation Queue State:** Video submission showing **Pending Approval** status *(Insert Image 6)*
+
+![TPA](./images/track-2-6-video-uploaded.png)
+
+7. **Scroll Stability Proof:** Submitted video card visible while scrolling smoothly through the board column *(Insert Image 7)*
+
+![TPA](./images/track-2-7-scrolling.png)
+
+8. **Approval Confirmation:** Video post displaying **Approved** status on the board *(Insert Image 8)*
+
+![TPA](./images/track-2-8-approval.png)
+
+9. **End-to-End Playback:** Approved video actively playing on the mobile browser *(Insert Image 9)*
+
+![TPA](./images/track-2-9-video-playing.png)
 
 </details>
