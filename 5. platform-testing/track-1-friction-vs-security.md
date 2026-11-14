@@ -51,7 +51,6 @@ The system perfectly flagged the incoming entry under a system-enforced **"Await
 ![Guest Mode Verification](./images/track-1-3-guest-name-change.jpg)
 ![Guest Mode Verification](./images/track-1-4-guest-pend-approval1.jpg)
 ![Guest Mode Verification](./images/track-1-5-guest-pend-approval2.jpg)
-![Guest Mode Verification](./images/)
 
 </details>
 
